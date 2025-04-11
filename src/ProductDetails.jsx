@@ -52,7 +52,7 @@ console.log(error)
         <p className="text-gray-500 text-sm">Stock: {product.stock}</p>
         <p className="text-gray-500 text-sm">{product.shippingInformation}</p>
         <div className="flex items-center gap-4 mt-4">
-          <button onClick={() => addToCart(product.id)} className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+          <button onClick={() => addToCart(product)} className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
             <ShoppingCart className="w-5 h-5" />
             Add to Cart
           </button>

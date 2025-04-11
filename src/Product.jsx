@@ -154,7 +154,7 @@ export default function Product() {
                                                     </div>
                                                 </Link>
                                                 <button
-                                                    onClick={() => addToCart(prod.id)}
+                                                    onClick={() => addToCart(prod)}
                                                     className="flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-white px-2 py-1 text-sm transition"
                                                 >
                                                     Add to cart

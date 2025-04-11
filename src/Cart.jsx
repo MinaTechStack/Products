@@ -30,9 +30,9 @@ const Cart = () => {
 
 
                                 <div className="flex items-center space-x-2">
-                                    <button onClick={() => qtyHandler(item.id, 2)} className="bg-gray-300 w-8 h-8 flex items-center justify-center rounded">-</button>
+                                    <button onClick={() => qtyHandler(item.id, "dec")} className="bg-gray-300 w-8 h-8 flex items-center justify-center rounded">-</button>
                                     <span className="text-gray-700 w-6 text-center">{item.qty}</span>
-                                    <button onClick={() => qtyHandler(item.id, 1)} className="bg-gray-300 w-8 h-8 flex items-center justify-center rounded">+</button>
+                                    <button onClick={() => qtyHandler(item.id, "inc")} className="bg-gray-300 w-8 h-8 flex items-center justify-center rounded">+</button>
                                 </div>
 
 
