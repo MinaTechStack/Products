@@ -26,7 +26,7 @@ const About = () => {
 
             <div className="grid md:grid-cols-2 gap-8 items-center mb-14 md:flex-row-reverse">
                 <img
-                    src="https://images.unsplash.com/photo-1607083206963-26d63b39bba0"
+                    src="https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Shopping cart"
                     className="w-full h-auto rounded-xl shadow-xl hover:scale-105 transition-transform duration-500"
                 />
